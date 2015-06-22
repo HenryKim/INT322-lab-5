@@ -1,0 +1,53 @@
+html
+{
+font-family: Helvetica;
+}
+header, nav , .main{
+	width:960px;
+	position:center;
+	margin: auto;
+}
+div.main{
+	border: 1px solid #444444;
+	margin: auto;
+}
+nav li{
+	display: inline;
+	background-color: #0081c2;
+	margin: 1em 1em;
+}
+.selected{
+	font-weight: bold;
+}
+div.profile-pic {
+	width: 320px;
+	background: lightgray;
+	float:left;
+}
+div.wrapper{
+	height: 120px;
+	width: 160px;
+}
+div.clear{
+	clear: both;
+}
+div.profile-details{
+	width: 320px;
+	font-weight: bold;
+	background-color: red;
+	float: left;
+}
+span.profile-detail{
+	padding-right: 1em;
+	font-weight: normal;
+}
+div.user-timeline {
+	width: 640px;
+	background-color: greenyellow;
+}
+#user-timeline-eventlist li{
+	max-width: 400px;
+	padding-top: 0.5em;
+	padding-bottom:0.5em;
+	border-bottom: 1px solid #aaaaaa;
+}
